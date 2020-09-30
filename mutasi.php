@@ -218,10 +218,10 @@ echo color('blue', "[+]")." =======================\n";
 echo color('blue', "[+]")." BCA CLI Version\n";
 echo color('blue', "[+]")." By: GidhanB.A\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." 1. Cek Saldo\n";
-echo color('blue', "[+]")." 2. Cek Mutasi\n";
+echo color('blue', "[+]")." 1. Cek Saldo Kamu\n";
+echo color('blue', "[+]")." 2. Cek Mutasi Kamu\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." Silahkan pilih: ";
+echo color('blue', "[+]")." Silahkan dipilih aa : ";
 $tools = trim(fgets(STDIN));
 
 if ($tools == 1) {
@@ -240,12 +240,12 @@ if ($tools == 1) {
 	for ($i=0; $i < $qty; $i++) echo "=";
 	echo "\n";
 } elseif ($tools == 2) {
-	echo color('blue', "[+]")." Berapa Hari Terakhir: ";
+	echo color('blue', "[+]")." Mau Data Berapa Hari Terakhir: ";
 	$date = trim(fgets(STDIN));
 	$a = new BCA($userid,$pwd,$date);
 	$b = @json_decode($a->mutasiTrx());
 	echo "\n";
 	print_r($b);
 } else {
-	die(color('red', "[+]")." Yang benerlah goblok!");
+	die(color('red', "[+]")." Yang bener dong sobat!");
 }
