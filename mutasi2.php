@@ -241,11 +241,12 @@ if ($tools == 1) {
 	for ($i=0; $i < $qty; $i++) echo "=";
 	echo "\n";
 } elseif ($tools == 2) {
-	echo color('blue', "[+]")." Berapa Hari Terakhir: \n";
+	echo color('red', "[+]")." Berapa Hari Terakhir: \n";
 	echo "wait ngab";
 	$date = trim(fgets(STDIN));
 	$a = new BCA($userid,$pwd,$date);
 	$b = @json_decode($a->mutasiTrx());
+	echo "\n";
 	echo "\n";
 	print_r($b);
 } else {
