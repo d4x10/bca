@@ -221,7 +221,8 @@ echo color('blue', "[+]")." =======================\n";
 echo color('blue', "[+]")." 1. Cek Saldo Anda NGAB\n";
 echo color('blue', "[+]")." 2. Cek Mutasi Anda NGAB\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." Silahkan pilih tools: ";
+echo color('blue', "[+]")." Silahkan pilih tools: \n";
+echo color('red', "[+]")."wait ngab...";
 $tools = trim(fgets(STDIN));
 
 if ($tools == 1) {
@@ -240,7 +241,7 @@ if ($tools == 1) {
 	for ($i=0; $i < $qty; $i++) echo "=";
 	echo "\n";
 } elseif ($tools == 2) {
-	echo color('blue', "[+]")." Berapa Hari Terakhir: ";
+	echo color('blue', "[+]")." Berapa Hari Terakhir: \n";
 	echo "wait ngab";
 	$date = trim(fgets(STDIN));
 	$a = new BCA($userid,$pwd,$date);
