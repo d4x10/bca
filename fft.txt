@@ -1,0 +1,20 @@
+Tutorial masang fft di c9.io iyh
+* git clone https://github.com/officialputuid/toolsig.git
+* cd toolsig
+* unzip node_modules.zip
+* node index.js
+* Then select the tool you want to use!
+5. pilih opsi nomor 6
+6. insert username & pass
+7. insert usenem target (jangan pake @ iyh)
+8. insert bacotan fftnya , ITTYW sama Milisecondnya
+
+bagi yg nyari bacotannya ni bacotan fftnya :
+
+like back & folback ya kak | follback & like back | follback ya kak | salken follback & like back ya kak | salken kak , boleh minta follback & like back kak? | follow back yah kak | udah aku follow & likes kak , boleh minta follback & likes back ya kak ? | udah aku follow kak , boleh minta follback ngak kak? hehe | follback yo | follback aku dong kak hehe | salken , follback aku ya | kak udah aku follow nih , boleh minta follback nga? | orang mana kak? boleh minta follback & like back nga ? | mari berteman , follback & likes back yah kak :) | boleh minta follback kak?? hehe | minta follback & like back yah kak , makasih hehe | nice pict kak , boleh minta follback & likes back nga? | kak udah aku follback ya , bisa bantu follback ngak kak? | udah aku follow nih kak , bantu follback yah kak | wah keren kak , btw udah aku follow kakak nih , bisa follback ngak kak? | like back dan Follow back ya?? | follback dan like back?? | follback ya?? | salken, follback dan like back ya?? | salam kenal follback dan likeback ya kak?? | orang mana? follback dan likeback ya?? | salken ya, boleh minta follback dan likeback? | follback yo | follbackk | follback dan like back ya kaka ?? | followback ya | udah aku follow dan like bisa minta follback dan likeback gak hehe | follback dan likeback yo kak udah difollow kok | follback dan likeback kak sudah aku follow dan like | bisa minta follow back kak hehe? | followback yo ?? | salken, follback ya ?? | salken, follback aku yah | salken, btw follback ya | salken, follback juga yah hehe | salamkenal, follback yah hehe | bisa follback ? | follback yow | follback yapp | Follback hihihihi | follbackk saya ya ?? | Orang mana kak, like back dan Follback ya | Salam kenal kak hehe likeback dan follback ya | Salken ya kak like back dan follback ya | Mari berteman kak,like back dan follback ya | Orang mana kak, Salam kenal ya , likeback dan Follback yaa | Orang mana kak?, likeback dan Follback dong | Namanya siapa, Salam kenal ya, like back dan fol
+
+Kalo masih error ketik :
+nvm install 8.9.1
+nvm use 8.9.1
+
+Tinggalkan jejak iyh sp tau masih ada beberapa anak sini yg blm tau ok
