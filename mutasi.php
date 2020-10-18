@@ -218,10 +218,10 @@ echo color('blue', "[+]")." =======================\n";
 echo color('blue', "[+]")." BCA CLI Version\n";
 echo color('blue', "[+]")." By: GidhanB.A\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." 1. Cek Saldo Anda\n";
-echo color('blue', "[+]")." 2. Cek Mutasi Anda\n";
+echo color('blue', "[+]")." 1. Cek Saldo\n";
+echo color('blue', "[+]")." 2. Cek Mutasi\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." Silahkan pilih tools: ";
+echo color('blue', "[+]")." Silahkan pilih: ";
 $tools = trim(fgets(STDIN));
 
 if ($tools == 1) {
