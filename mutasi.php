@@ -145,11 +145,11 @@ class BCA{
 			unlink("cookies_".$this->_userId.".txt");
 			goto Awal;
 		}else
-		if(strpos($result, "TRANSAKSI GAGAL"))
+		if(strpos($result, "TRANSAKSI GAGAL NGAB"))
 		{
 			return array("status" => false, "data" => array(), "message" => "Transaksi Gagal");
 		}else
-		if(strpos($result, "TIDAK ADA TRANSAKSI")){
+		if(strpos($result, "TIDAK ADA TRANSAKSI NGAB")){
 			return array("status" => false, "data" => array(), "message" => "Tidak Ada Transaksi Pada Tanggal {$timeDari['d']}/{$timeDari['m']}/{$timeDari['y']}");
 		}
 		return $result;
@@ -218,8 +218,8 @@ echo color('blue', "[+]")." =======================\n";
 echo color('blue', "[+]")." BCA CLI Version\n";
 echo color('blue', "[+]")." By: GidhanB.A\n";
 echo color('blue', "[+]")." =======================\n";
-echo color('blue', "[+]")." 1. Cek Saldo Anda\n";
-echo color('blue', "[+]")." 2. Cek Mutasi Anda\n";
+echo color('blue', "[+]")." 1. Cek Saldo Anda NGAB\n";
+echo color('blue', "[+]")." 2. Cek Mutasi Anda NGAB\n";
 echo color('blue', "[+]")." =======================\n";
 echo color('blue', "[+]")." Silahkan pilih tools: ";
 $tools = trim(fgets(STDIN));
@@ -241,6 +241,7 @@ if ($tools == 1) {
 	echo "\n";
 } elseif ($tools == 2) {
 	echo color('blue', "[+]")." Berapa Hari Terakhir: ";
+	echo "wait ngab";
 	$date = trim(fgets(STDIN));
 	$a = new BCA($userid,$pwd,$date);
 	$b = @json_decode($a->mutasiTrx());
