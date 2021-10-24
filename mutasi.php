@@ -1,6 +1,6 @@
 <?php
 
-$userid = "";
+$userid = "abc";
 $pwd = "";
 
 @date_default_timezone_set('Asia/Jakarta');
